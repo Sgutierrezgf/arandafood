@@ -5,12 +5,14 @@
     opacity   : 1;
     bottom    : 23px;
     position  : absolute;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer .textfooter {
     width         : 381px;
     height        : 83px;
-    position      : absolute;
+    position      : relative;
     color         : var(--unnamed-color-425966);
     text-align    : left;
     letter-spacing: NaNpx;
