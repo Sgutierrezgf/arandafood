@@ -15,7 +15,6 @@ const Recetas = () => {
         strCategoryDescription: string;
     }
 
-    const color = 'black'
     const url = 'https://www.themealdb.com/api/json/v1/1/categories.php'
     const [recetas, setRecetas] = useState<Array<DataType>>([]);
 
